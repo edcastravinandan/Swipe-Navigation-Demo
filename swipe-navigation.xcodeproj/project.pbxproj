@@ -154,6 +154,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = X3LRM96S44;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 					};
 					40995D671D22247E00264E4D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -269,6 +270,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -315,6 +317,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -345,6 +348,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wagmob.newsalesuniversity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "14f132c1-6d81-4e6e-9402-36a2f2075b73";
+				PROVISIONING_PROFILE_SPECIFIER = newSalesU_dev2;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -358,6 +363,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wagmob.newsalesuniversity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "14f132c1-6d81-4e6e-9402-36a2f2075b73";
+				PROVISIONING_PROFILE_SPECIFIER = newSalesU_dev2;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
